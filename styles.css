@@ -104,8 +104,6 @@ ul, ol { padding: 0; }
   top: 0;
   z-index: 30;
   background: var(--green-900);
-  border-top: 14px solid;
-  border-image: linear-gradient(180deg, #ffffff 0, #ffffff 1px, var(--steel-light) 1px, var(--steel) 55%, var(--steel-dark) 92%, #3f484d) 1;
   box-shadow: 0 10px 24px -14px rgba(0, 0, 0, 0.6);
 }
 .rail-inner {
@@ -710,8 +708,7 @@ h3 {
     gap: 0.5rem;
     padding: 0.6rem var(--gutter) calc(0.6rem + env(safe-area-inset-bottom));
     background: var(--green-900);
-    border-top: 6px solid;
-    border-image: linear-gradient(180deg, var(--steel-light), var(--steel) 45%, var(--steel-dark)) 1;
+    border-top: 1px solid rgba(255, 255, 255, 0.16);
     box-shadow: 0 -10px 24px -14px rgba(0, 0, 0, 0.6);
   }
   .action-bar .btn { justify-content: center; width: 100%; min-height: 50px; padding-inline: 0.6rem; }
@@ -918,3 +915,10 @@ p, li, dd { text-wrap: pretty; }
   .nav a { min-height: 44px; }
 }
 .phone-big { min-height: 44px; padding: 0.3rem 0; }
+
+/* WhatsApp glyph: no disc behind it, so there is no circle inside a circle */
+.btn .icon.icon-bare { width: 1.5em; height: 1.5em; padding: 0; background: none; margin: 0 0 0 -0.35em; border-radius: 0; }
+.btn-ghost:hover .icon.icon-bare { background: none; }
+.action-bar .btn-icon { border: 0; background: rgba(255, 255, 255, 0.12); border-radius: 14px; width: 52px; }
+.action-bar .btn-icon:hover { background: rgba(255, 255, 255, 0.22); color: var(--white); }
+.action-bar .btn-icon .icon.icon-bare { width: 1.7em; height: 1.7em; margin: 0; }
