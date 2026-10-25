@@ -13,7 +13,7 @@ Scope: the site's front door. Mode: Persuade, informational register. Multi-page
 Adults in the Cagliari and Sassari areas with pain a first drug-based approach did not fix, mostly on a phone in the evening; relatives and referring doctors second. They must understand that persistent pain is a symptom to investigate and treat, see who she is and where she works, and reach MioDottore or the phone without hunting.
 
 ## Action and proof
-Primary: link to https://www.miodottore.it/profilo/valentina-tanga labelled as booking. Secondary: call 351 374 4685. Proof only from what exists: credentials and hospital experience, the brochure's conditions list and three-stage pathway, the three approved photos, four locations, a link to the MioDottore reviews. No prices, statistics, quoted reviews, stock imagery, or Villa Esperia identity. Studio Beta stays off.
+Primary: link to https://www.miodottore.it/profilo/valentina-tanga labelled as booking. Secondary: call 379 208 2755. Proof only from what exists: credentials and hospital experience, the brochure's conditions list and three-stage pathway, the three approved photos, four locations, a link to the MioDottore reviews. No prices, statistics, quoted reviews, stock imagery, or Villa Esperia identity. Studio Beta stays off.
 
 ## Sequence (bays)
 1 Hero · 2 Perché e quando (brochure argument, Pavese quote as a moment) · 3 Di cosa mi occupo (conditions grouped by region) · 4 Come si cura (three stages) · 5 Ossigeno-ozono terapia, highlighted · 6 Chi sono · 7 Consulenza online, highlighted · 8 Dove ricevo (three physical + online) · 9 La prima visita: cosa portare · 10 Close with actions, reviews link, footer.
