@@ -922,3 +922,5 @@ p, li, dd { text-wrap: pretty; }
 .action-bar .btn-icon { border: 0; background: rgba(255, 255, 255, 0.12); border-radius: 14px; width: 52px; }
 .action-bar .btn-icon:hover { background: rgba(255, 255, 255, 0.22); color: var(--white); }
 .action-bar .btn-icon .icon.icon-bare { width: 1.7em; height: 1.7em; margin: 0; }
+
+.foot-title { margin-top: 0; color: var(--white); font-family: var(--font-sign); font-weight: 600; font-size: 1rem; letter-spacing: 0.08em; text-transform: uppercase; }
