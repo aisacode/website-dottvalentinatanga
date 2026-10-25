@@ -9,7 +9,7 @@
   <link rel="preload" href="fonts/barlow-semi-condensed-600.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/source-sans-3-400.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="fonts/fonts.css?v=1">
-  <link rel="stylesheet" href="styles.css?v=22">
+  <link rel="stylesheet" href="styles.css?v=26">
 </head>
 <body>
 
@@ -39,7 +39,7 @@
       <a href="terapie.html">Terapie</a>
       <a href="contatti.html" aria-current="page">Contatti</a>
     </nav>
-    <a class="btn btn-primary btn-small" href="https://www.miodottore.it/profilo/valentina-tanga" rel="noopener">Prenota<span class="visually-hidden"> su MioDottore (si apre in una nuova pagina)</span><svg class="icon" aria-hidden="true"><use href="#i-ext"/></svg></a>
+    <a class="btn btn-primary btn-small" href="https://www.miodottore.it/profilo/valentina-tanga" target="_blank" rel="noopener">Prenota<span class="visually-hidden"> su MioDottore (si apre in una nuova pagina)</span><svg class="icon" aria-hidden="true"><use href="#i-ext"/></svg></a>
   </div>
 </header>
 
@@ -58,7 +58,7 @@
         <div>
           <h3>Online</h3>
           <p>L'agenda di ogni sede e della consulenza online è su MioDottore.</p>
-          <div class="actions"><a class="btn btn-primary" href="https://www.miodottore.it/profilo/valentina-tanga" rel="noopener">Prenota su MioDottore<span class="visually-hidden"> (si apre in una nuova pagina)</span><svg class="icon" aria-hidden="true"><use href="#i-ext"/></svg></a></div>
+          <div class="actions"><a class="btn btn-primary" href="https://www.miodottore.it/profilo/valentina-tanga" target="_blank" rel="noopener">Prenota su MioDottore<span class="visually-hidden"> (si apre in una nuova pagina)</span><svg class="icon" aria-hidden="true"><use href="#i-ext"/></svg></a></div>
         </div>
         <div>
           <h3>Per telefono</h3>
@@ -67,7 +67,7 @@
         <div>
           <h3>Su WhatsApp</h3>
           <p>Scrivi allo stesso numero.</p>
-          <div class="actions"><a class="btn btn-ghost" href="https://wa.me/393792082755" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>Scrivi su WhatsApp<span class="visually-hidden"> (si apre in una nuova pagina)</span></a></div>
+          <div class="actions"><a class="btn btn-ghost" href="https://wa.me/393792082755" target="_blank" rel="noopener"><svg class="icon icon-bare" aria-hidden="true"><use href="#i-whatsapp"/></svg>Scrivi su WhatsApp<span class="visually-hidden"> (si apre in una nuova pagina)</span></a></div>
         </div>
         <div>
           <h3>Per email</h3>
@@ -77,53 +77,18 @@
     </div>
   </section>
 
-  <section class="sheet location" id="studio" aria-labelledby="studio-t">
-    <div class="bay-inner location-grid">
-      <div>
-        <h2 id="studio-t">Studio medico Dott.ssa Tanga</h2>
-        <p class="byline">09126 Cagliari</p>
-      </div>
-      <div>
-        <ul class="facts"><li><span class="k">Indirizzo</span><span>Via Dexart 4, 09126 Cagliari</span></li></ul>
-        <div class="actions">
-          <a class="btn btn-primary" href="https://www.miodottore.it/profilo/valentina-tanga" rel="noopener">Prenota su MioDottore<span class="visually-hidden"> per Studio medico Dott.ssa Tanga (si apre in una nuova pagina)</span><svg class="icon" aria-hidden="true"><use href="#i-ext"/></svg></a>
-          <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&query=Via+Dexart+4+09126+Cagliari" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>Apri la mappa</a>
-        </div>
-      </div>
+  <section class="sheet" id="sedi" aria-labelledby="sedi-t">
+    <div class="bay-inner">
+      <h2 id="sedi-t">Le sedi</h2>
+      <p class="prose-note">Per prenotare usa l'agenda su MioDottore. Le sedi hanno anche una propria linea, per chi preferisce chiamare direttamente lì.</p>
+      <dl class="rows">
+        <div><dt>Studio medico Dott.ssa Tanga</dt><dd><p>Via Dexart 4, 09126 Cagliari</p><p class="row-links"><a class="link" href="https://www.google.com/maps/search/?api=1&query=Via+Dexart+4+09126+Cagliari" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>Apri la mappa<span class="visually-hidden"> di Studio medico Dott.ssa Tanga (si apre in una nuova pagina)</span></a></p></dd></div>
+        <div><dt>Centro Medico Amana</dt><dd><p>Via dei Colombi 3, 09126 Cagliari</p><p class="row-links"><a class="link" href="tel:+393513744685"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>351 374 4685</a><a class="link" href="https://centromedicoamana.it" target="_blank" rel="noopener">centromedicoamana.it<svg class="icon" aria-hidden="true"><use href="#i-ext"/></svg><span class="visually-hidden"> (si apre in una nuova pagina)</span></a><a class="link" href="https://www.google.com/maps/search/?api=1&query=Via+dei+Colombi+3+09126+Cagliari" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>Apri la mappa<span class="visually-hidden"> di Centro Medico Amana (si apre in una nuova pagina)</span></a></p></dd></div>
+        <div><dt>Health Care Center Sassari</dt><dd><p>Via Piandanna 2b, 07100 Sassari</p><p class="row-links"><a class="link" href="tel:+390794920999"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>079 492 0999</a><a class="link" href="https://hccsassari.com" target="_blank" rel="noopener">hccsassari.com<svg class="icon" aria-hidden="true"><use href="#i-ext"/></svg><span class="visually-hidden"> (si apre in una nuova pagina)</span></a><a class="link" href="https://www.google.com/maps/search/?api=1&query=Via+Piandanna+2b+07100+Sassari" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>Apri la mappa<span class="visually-hidden"> di Health Care Center Sassari (si apre in una nuova pagina)</span></a></p></dd></div>
+      </dl>
     </div>
   </section>
 
-  <section class="sheet location" id="amana" aria-labelledby="amana-t">
-    <div class="bay-inner location-grid">
-      <div>
-        <h2 id="amana-t">Centro Medico Amana</h2>
-        <p class="byline">09126 Cagliari</p>
-      </div>
-      <div>
-        <ul class="facts"><li><span class="k">Indirizzo</span><span>Via dei Colombi 3, 09126 Cagliari</span></li><li><span class="k">Telefono</span><a class="link" href="tel:+393513744685">351 374 4685</a></li><li><span class="k">Sito</span><a class="link" href="https://centromedicoamana.it" rel="noopener">centromedicoamana.it<svg class="icon" aria-hidden="true"><use href="#i-ext"/></svg></a></li></ul>
-        <div class="actions">
-          <a class="btn btn-primary" href="https://www.miodottore.it/profilo/valentina-tanga" rel="noopener">Prenota su MioDottore<span class="visually-hidden"> per Centro Medico Amana (si apre in una nuova pagina)</span><svg class="icon" aria-hidden="true"><use href="#i-ext"/></svg></a>
-          <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&query=Via+dei+Colombi+3+09126+Cagliari" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>Apri la mappa</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="sheet location" id="sassari" aria-labelledby="sassari-t">
-    <div class="bay-inner location-grid">
-      <div>
-        <h2 id="sassari-t">Health Care Center Sassari</h2>
-        <p class="byline">07100 Sassari</p>
-      </div>
-      <div>
-        <ul class="facts"><li><span class="k">Indirizzo</span><span>Via Piandanna 2b, 07100 Sassari</span></li><li><span class="k">Telefono</span><a class="link" href="tel:+390794920999">079 492 0999</a></li><li><span class="k">Sito</span><a class="link" href="https://hccsassari.com" rel="noopener">hccsassari.com<svg class="icon" aria-hidden="true"><use href="#i-ext"/></svg></a></li></ul>
-        <div class="actions">
-          <a class="btn btn-primary" href="https://www.miodottore.it/profilo/valentina-tanga" rel="noopener">Prenota su MioDottore<span class="visually-hidden"> per Health Care Center Sassari (si apre in una nuova pagina)</span><svg class="icon" aria-hidden="true"><use href="#i-ext"/></svg></a>
-          <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&query=Via+Piandanna+2b+07100+Sassari" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>Apri la mappa</a>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <section class="bay bay-on-green" id="online" aria-labelledby="online-t">
     <div class="bay-inner two-col">
@@ -133,7 +98,6 @@
           <p class="lead">Prenoti dall'agenda su MioDottore e ti colleghi dal computer o dallo smartphone.</p>
           <p>Il link per la videochiamata ti arriva via SMS ed email almeno 30 minuti prima dell'appuntamento. Collegati con dieci minuti di anticipo, tieni il dispositivo carico, controlla connessione, videocamera e microfono e tieni a portata di mano referti ed esami.</p>
         </div>
-        <div class="actions"><a class="btn btn-primary" href="https://www.miodottore.it/profilo/valentina-tanga" rel="noopener">Prenota una consulenza online<span class="visually-hidden"> (si apre in una nuova pagina)</span><svg class="icon" aria-hidden="true"><use href="#i-ext"/></svg></a></div>
       </div>
     </div>
   </section>
@@ -168,9 +132,10 @@
       <div class="foot-name">Dott.ssa Valentina Tanga</div>
       <p>Specialista in Anestesia, Rianimazione e Terapia del Dolore</p>
       <p>Cagliari · Sassari · Consulenza online · <a href="tel:+393792082755">379 208 2755</a></p>
-      <p><a href="https://wa.me/393792082755" rel="noopener">WhatsApp</a> · <a href="mailto:valentina.tanga.algologia@gmail.com">valentina.tanga.algologia@gmail.com</a></p>
+      <p><a href="https://wa.me/393792082755" target="_blank" rel="noopener">WhatsApp</a> · <a href="mailto:valentina.tanga.algologia@gmail.com">valentina.tanga.algologia@gmail.com</a></p>
     </div>
     <nav class="foot-nav" aria-label="Sezioni del sito, piè di pagina">
+      <a href="index.html">Home</a>
       <a href="chi-sono.html">Chi sono</a>
       <a href="terapie.html">Terapie</a>
       <a href="contatti.html">Contatti</a>
@@ -182,8 +147,8 @@
 
 <div class="action-bar" aria-label="Azioni rapide">
   <a class="btn btn-ghost" href="tel:+393792082755"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>379 208 2755</a>
-  <a class="btn btn-ghost btn-icon" href="https://wa.me/393792082755" rel="noopener" aria-label="Scrivi su WhatsApp (si apre in una nuova pagina)"><svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg></a>
-  <a class="btn btn-primary" href="https://www.miodottore.it/profilo/valentina-tanga" rel="noopener">Prenota<svg class="icon" aria-hidden="true"><use href="#i-ext"/></svg></a>
+  <a class="btn btn-ghost btn-icon" href="https://wa.me/393792082755" target="_blank" rel="noopener" aria-label="Scrivi su WhatsApp (si apre in una nuova pagina)"><svg class="icon icon-bare" aria-hidden="true"><use href="#i-whatsapp"/></svg></a>
+  <a class="btn btn-primary" href="https://www.miodottore.it/profilo/valentina-tanga" target="_blank" rel="noopener">Prenota<svg class="icon" aria-hidden="true"><use href="#i-ext"/></svg></a>
 </div>
 
 </body>

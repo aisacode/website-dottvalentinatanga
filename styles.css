@@ -104,8 +104,6 @@ ul, ol { padding: 0; }
   top: 0;
   z-index: 30;
   background: var(--green-900);
-  border-top: 14px solid;
-  border-image: linear-gradient(180deg, #ffffff 0, #ffffff 1px, var(--steel-light) 1px, var(--steel) 55%, var(--steel-dark) 92%, #3f484d) 1;
   box-shadow: 0 10px 24px -14px rgba(0, 0, 0, 0.6);
 }
 .rail-inner {
@@ -710,8 +708,7 @@ h3 {
     gap: 0.5rem;
     padding: 0.6rem var(--gutter) calc(0.6rem + env(safe-area-inset-bottom));
     background: var(--green-900);
-    border-top: 6px solid;
-    border-image: linear-gradient(180deg, var(--steel-light), var(--steel) 45%, var(--steel-dark)) 1;
+    border-top: 1px solid rgba(255, 255, 255, 0.16);
     box-shadow: 0 -10px 24px -14px rgba(0, 0, 0, 0.6);
   }
   .action-bar .btn { justify-content: center; width: 100%; min-height: 50px; padding-inline: 0.6rem; }
@@ -886,3 +883,42 @@ h3 {
 .evidence { margin: 2.5rem 0 0; }
 .evidence img { width: 100%; aspect-ratio: 16 / 6; object-fit: cover; object-position: 50% 64%; border-radius: 4px; }
 @media (max-width: 600px) { .evidence img { aspect-ratio: 4 / 3; } }
+
+/* ---------- Readability and touch (critique round) ---------- */
+
+p, li, dd { text-wrap: pretty; }
+.lay { display: block; font-size: 0.95rem; color: var(--ink-2); line-height: 1.35; margin-top: 0.1rem; }
+.condition-group li { padding: 0.4rem 0; }
+.prose-note { margin-top: 1rem; max-width: 60ch; color: var(--ink-2); }
+.row-links { display: flex; flex-wrap: wrap; gap: 0 1.75rem; margin-top: 0.2rem; }
+.rows .link { min-height: 44px; }
+.rows dd > p { padding: 0; }
+.rows dd > p + p { margin-top: 0.1rem; }
+
+/* Link labels: sentence case, readable size, 44px touch area */
+.text-link {
+  font-family: var(--font-head);
+  font-size: 1.15rem;
+  letter-spacing: 0;
+  text-transform: none;
+  min-height: 44px;
+  padding: 0.55rem 0;
+  border-bottom: 0;
+  background: linear-gradient(currentColor, currentColor) 0 calc(100% - 0.55rem) / 100% 2px no-repeat;
+}
+.link { min-height: 44px; }
+.foot a { display: inline-flex; align-items: center; min-height: 44px; }
+.foot-nav a { padding: 0 0.2rem; font-size: 1.05rem; }
+.nav a { font-size: 1.1rem; }
+.nav a[aria-current="page"] { box-shadow: inset 0 -3px 0 var(--green-300); }
+@media (max-width: 900px) {
+  .nav a { min-height: 44px; }
+}
+.phone-big { min-height: 44px; padding: 0.3rem 0; }
+
+/* WhatsApp glyph: no disc behind it, so there is no circle inside a circle */
+.btn .icon.icon-bare { width: 1.5em; height: 1.5em; padding: 0; background: none; margin: 0 0 0 -0.35em; border-radius: 0; }
+.btn-ghost:hover .icon.icon-bare { background: none; }
+.action-bar .btn-icon { border: 0; background: rgba(255, 255, 255, 0.12); border-radius: 14px; width: 52px; }
+.action-bar .btn-icon:hover { background: rgba(255, 255, 255, 0.22); color: var(--white); }
+.action-bar .btn-icon .icon.icon-bare { width: 1.7em; height: 1.7em; margin: 0; }
