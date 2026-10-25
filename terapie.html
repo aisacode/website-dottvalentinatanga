@@ -9,7 +9,7 @@
   <link rel="preload" href="fonts/barlow-semi-condensed-600.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/source-sans-3-400.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="fonts/fonts.css?v=1">
-  <link rel="stylesheet" href="styles.css?v=22">
+  <link rel="stylesheet" href="styles.css?v=25">
 </head>
 <body>
 
@@ -39,7 +39,7 @@
       <a href="terapie.html" aria-current="page">Terapie</a>
       <a href="contatti.html">Contatti</a>
     </nav>
-    <a class="btn btn-primary btn-small" href="https://www.miodottore.it/profilo/valentina-tanga" rel="noopener">Prenota<span class="visually-hidden"> su MioDottore (si apre in una nuova pagina)</span><svg class="icon" aria-hidden="true"><use href="#i-ext"/></svg></a>
+    <a class="btn btn-primary btn-small" href="https://www.miodottore.it/profilo/valentina-tanga" target="_blank" rel="noopener">Prenota<span class="visually-hidden"> su MioDottore (si apre in una nuova pagina)</span><svg class="icon" aria-hidden="true"><use href="#i-ext"/></svg></a>
   </div>
 </header>
 
@@ -61,7 +61,7 @@
         </li>
         <li>
           <h3>Terapia farmacologica e iniettiva</h3>
-          <p>Si usano farmaci con funzione diversa: antidolorifici, anestetici, neurotrofici, antinfiammatori. Si somministrano per bocca, per via transdermica o con infiltrazioni.</p>
+          <p>Si usano farmaci per il dolore, anestetici, farmaci per i nervi e antinfiammatori. Si somministrano per bocca, con cerotti sulla pelle o con infiltrazioni.</p>
         </li>
         <li>
           <h3>Terapie ulteriori</h3>
@@ -75,12 +75,28 @@
     <div class="bay-inner">
       <h2 id="condizioni-t">Le condizioni di cui mi occupo</h2>
       <div class="conditions">
-        <div class="condition-group"><h3>Schiena e collo</h3><ul><li>Lombalgia</li><li>Lombosciatalgia</li><li>Cervicalgia</li><li>Brachialgia</li></ul></div>
-        <div class="condition-group"><h3>Articolazioni e ossa</h3><ul><li>Artrosi</li><li>Artrite</li><li>Dolori articolari</li><li>Osteoporosi</li></ul></div>
-        <div class="condition-group"><h3>Nervi e testa</h3><ul><li>Cefalea</li><li>Nevralgia trigeminale</li><li>Neuropatia diabetica</li></ul></div>
-        <div class="condition-group"><h3>Dolore oncologico e post-chirurgico</h3><ul><li>Dolore acuto e cronico oncologico e non</li><li>Dolore post chirurgico</li></ul></div>
-        <div class="condition-group"><h3>Sport</h3><ul><li>Overuse syndromes</li><li>Algie nello sportivo</li></ul></div>
-        <div class="condition-group"><h3>Dolore pelvico</h3><ul><li>Vulvodinia</li></ul></div>
+        <div class="condition-group"><h3>Schiena e collo</h3><ul>
+          <li>Lombalgia<span class="lay">mal di schiena nella parte bassa</span></li>
+          <li>Lombosciatalgia<span class="lay">dolore che dalla schiena scende lungo la gamba</span></li>
+          <li>Cervicalgia<span class="lay">dolore al collo</span></li>
+          <li>Brachialgia<span class="lay">dolore che dal collo scende lungo il braccio</span></li></ul></div>
+        <div class="condition-group"><h3>Articolazioni e ossa</h3><ul>
+          <li>Artrosi<span class="lay">usura delle articolazioni</span></li>
+          <li>Artrite<span class="lay">infiammazione delle articolazioni</span></li>
+          <li>Dolori articolari</li>
+          <li>Osteoporosi<span class="lay">fragilità delle ossa</span></li></ul></div>
+        <div class="condition-group"><h3>Nervi e testa</h3><ul>
+          <li>Cefalea<span class="lay">mal di testa</span></li>
+          <li>Nevralgia trigeminale<span class="lay">dolore intenso e improvviso al viso</span></li>
+          <li>Neuropatia diabetica<span class="lay">dolore ai nervi legato al diabete, soprattutto a mani e piedi</span></li></ul></div>
+        <div class="condition-group"><h3>Dolore oncologico e dopo un intervento</h3><ul>
+          <li>Dolore acuto e cronico, oncologico e non</li>
+          <li>Dolore dopo un intervento chirurgico</li></ul></div>
+        <div class="condition-group"><h3>Sport</h3><ul>
+          <li>Dolori da sovraccarico<span class="lay">overuse syndromes</span></li>
+          <li>Dolori nello sportivo</li></ul></div>
+        <div class="condition-group"><h3>Dolore pelvico</h3><ul>
+          <li>Vulvodinia<span class="lay">dolore e bruciore nella zona vulvare</span></li></ul></div>
       </div>
     </div>
   </section>
@@ -89,27 +105,25 @@
     <div class="bay-inner">
       <h2 id="iniettiva">Terapia farmacologica e iniettiva</h2>
       <dl class="rows">
-        <div><dt>Infiltrazioni articolari</dt><dd>Peri-articolari e intra-articolari, anche con acido ialuronico.</dd></div>
-        <div><dt>Peridurali caudali ecoguidate</dt><dd>Iniezione antalgica guidata dall'ecografia.</dd></div>
-        <div><dt>Blocchi perinervosi</dt><dd>Con finalità diagnostica e terapeutica: un anestetico viene iniettato vicino al nervo che dà il dolore.</dd></div>
-        <div><dt>Mesoterapia e intramuscolari</dt><dd>Iniezioni mirate nella zona dolente.</dd></div>
+        <div><dt>Infiltrazioni articolari</dt><dd>Un'iniezione nell'articolazione o intorno a essa, anche con acido ialuronico.</dd></div>
+        <div><dt>Peridurale caudale con ecografia</dt><dd>Un farmaco iniettato nella parte bassa della colonna vertebrale, guidato dall'ecografia.</dd></div>
+        <div><dt>Blocchi vicino al nervo</dt><dd>Un anestetico iniettato accanto al nervo che dà il dolore: serve a capire da dove parte e a calmarlo.</dd></div>
+        <div><dt>Mesoterapia e iniezioni nel muscolo</dt><dd>Iniezioni mirate nella zona dolente.</dd></div>
       </dl>
     </div>
   </section>
 
   <section class="sheet" aria-labelledby="ulteriori">
-    <div class="bay-inner two-col">
-      <div class="stack">
-        <h2 id="ulteriori">Terapie ulteriori</h2>
-        <div class="prose"><p>Non sono per tutti e non si scelgono in anticipo: si valutano insieme durante la visita.</p></div>
-      </div>
-      <ul class="experience">
-        <li><span>Agopuntura e dry needling</span></li>
-        <li><span>Infiltrazioni con tossina botulinica</span></li>
-        <li><span>Terapia rigenerativa, con PRP o dispositivi medici specifici</span></li>
-        <li><span>Radiofrequenza antalgica</span></li>
-        <li><span>Neuromodulazione</span></li>
-      </ul>
+    <div class="bay-inner">
+      <h2 id="ulteriori">Terapie ulteriori</h2>
+      <p class="prose-note">Non sono per tutti e non si scelgono in anticipo: si valutano insieme durante la visita.</p>
+      <dl class="rows">
+        <div><dt>Agopuntura e dry needling</dt><dd>Aghi sottili inseriti in punti precisi del corpo o nei muscoli contratti.</dd></div>
+        <div><dt>Tossina botulinica</dt><dd>Iniezioni che rilassano i muscoli troppo contratti.</dd></div>
+        <div><dt>Terapia rigenerativa</dt><dd>Con PRP, un concentrato di piastrine ricavato dal tuo stesso sangue, o con dispositivi medici specifici.</dd></div>
+        <div><dt>Radiofrequenza</dt><dd>Impulsi che agiscono sul nervo per ridurre il segnale del dolore.</dd></div>
+        <div><dt>Neuromodulazione</dt><dd>Stimolazione dei nervi per modificare la trasmissione del dolore.</dd></div>
+      </dl>
     </div>
   </section>
 
@@ -137,8 +151,8 @@
     <div class="bay-inner">
       <h2 id="prenota">Parliamone in visita.</h2>
       <div class="actions">
-        <a class="btn btn-primary" href="https://www.miodottore.it/profilo/valentina-tanga" rel="noopener">Prenota su MioDottore<span class="visually-hidden"> (si apre in una nuova pagina)</span><svg class="icon" aria-hidden="true"><use href="#i-ext"/></svg></a>
-        <a class="btn btn-ghost" href="tel:+393792082755"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>379 208 2755</a><a class="btn btn-ghost btn-icon" href="https://wa.me/393792082755" rel="noopener" aria-label="Scrivi su WhatsApp (si apre in una nuova pagina)"><svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg></a>
+        <a class="btn btn-primary" href="https://www.miodottore.it/profilo/valentina-tanga" target="_blank" rel="noopener">Prenota su MioDottore<span class="visually-hidden"> (si apre in una nuova pagina)</span><svg class="icon" aria-hidden="true"><use href="#i-ext"/></svg></a>
+        <a class="btn btn-ghost" href="tel:+393792082755"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>379 208 2755</a><a class="btn btn-ghost btn-icon" href="https://wa.me/393792082755" target="_blank" rel="noopener" aria-label="Scrivi su WhatsApp (si apre in una nuova pagina)"><svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg></a>
       </div>
     </div>
   </section>
@@ -150,9 +164,10 @@
       <div class="foot-name">Dott.ssa Valentina Tanga</div>
       <p>Specialista in Anestesia, Rianimazione e Terapia del Dolore</p>
       <p>Cagliari · Sassari · Consulenza online · <a href="tel:+393792082755">379 208 2755</a></p>
-      <p><a href="https://wa.me/393792082755" rel="noopener">WhatsApp</a> · <a href="mailto:valentina.tanga.algologia@gmail.com">valentina.tanga.algologia@gmail.com</a></p>
+      <p><a href="https://wa.me/393792082755" target="_blank" rel="noopener">WhatsApp</a> · <a href="mailto:valentina.tanga.algologia@gmail.com">valentina.tanga.algologia@gmail.com</a></p>
     </div>
     <nav class="foot-nav" aria-label="Sezioni del sito, piè di pagina">
+      <a href="index.html">Home</a>
       <a href="chi-sono.html">Chi sono</a>
       <a href="terapie.html">Terapie</a>
       <a href="contatti.html">Contatti</a>
@@ -164,8 +179,8 @@
 
 <div class="action-bar" aria-label="Azioni rapide">
   <a class="btn btn-ghost" href="tel:+393792082755"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>379 208 2755</a>
-  <a class="btn btn-ghost btn-icon" href="https://wa.me/393792082755" rel="noopener" aria-label="Scrivi su WhatsApp (si apre in una nuova pagina)"><svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg></a>
-  <a class="btn btn-primary" href="https://www.miodottore.it/profilo/valentina-tanga" rel="noopener">Prenota<svg class="icon" aria-hidden="true"><use href="#i-ext"/></svg></a>
+  <a class="btn btn-ghost btn-icon" href="https://wa.me/393792082755" target="_blank" rel="noopener" aria-label="Scrivi su WhatsApp (si apre in una nuova pagina)"><svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg></a>
+  <a class="btn btn-primary" href="https://www.miodottore.it/profilo/valentina-tanga" target="_blank" rel="noopener">Prenota<svg class="icon" aria-hidden="true"><use href="#i-ext"/></svg></a>
 </div>
 
 </body>
