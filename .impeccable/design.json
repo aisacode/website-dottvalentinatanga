@@ -1,0 +1,720 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-25T13:16:24Z",
+  "title": "Design System: Dott.ssa Valentina Tanga",
+  "world": "L'ambulatorio",
+  "extensions": {
+    "colorMeta": {
+      "sage": {
+        "role": "neutral",
+        "displayName": "Sage",
+        "canonical": "oklch(73.6% 0.038 141.4)",
+        "tonalRamp": [
+          "oklch(15% 0.015 141.4)",
+          "oklch(26% 0.026 141.4)",
+          "oklch(37% 0.033 141.4)",
+          "oklch(49% 0.037 141.4)",
+          "oklch(60% 0.037 141.4)",
+          "oklch(72% 0.034 141.4)",
+          "oklch(83% 0.027 141.4)",
+          "oklch(95% 0.015 141.4)"
+        ]
+      },
+      "sage-fold": {
+        "role": "neutral",
+        "displayName": "Sage Fold",
+        "canonical": "oklch(64.4% 0.038 146.4)",
+        "tonalRamp": [
+          "oklch(15% 0.015 146.4)",
+          "oklch(26% 0.026 146.4)",
+          "oklch(37% 0.033 146.4)",
+          "oklch(49% 0.037 146.4)",
+          "oklch(60% 0.038 146.4)",
+          "oklch(72% 0.034 146.4)",
+          "oklch(83% 0.027 146.4)",
+          "oklch(95% 0.015 146.4)"
+        ]
+      },
+      "sage-deep": {
+        "role": "neutral",
+        "displayName": "Sage Deep",
+        "canonical": "oklch(41.7% 0.034 154.2)",
+        "tonalRamp": [
+          "oklch(15% 0.014 154.2)",
+          "oklch(26% 0.023 154.2)",
+          "oklch(37% 0.030 154.2)",
+          "oklch(49% 0.034 154.2)",
+          "oklch(60% 0.034 154.2)",
+          "oklch(72% 0.030 154.2)",
+          "oklch(83% 0.024 154.2)",
+          "oklch(95% 0.014 154.2)"
+        ]
+      },
+      "moss": {
+        "role": "neutral",
+        "displayName": "Moss",
+        "canonical": "oklch(53.1% 0.040 150.0)",
+        "tonalRamp": [
+          "oklch(15% 0.016 150.0)",
+          "oklch(26% 0.028 150.0)",
+          "oklch(37% 0.035 150.0)",
+          "oklch(49% 0.040 150.0)",
+          "oklch(60% 0.040 150.0)",
+          "oklch(72% 0.036 150.0)",
+          "oklch(83% 0.028 150.0)",
+          "oklch(95% 0.016 150.0)"
+        ]
+      },
+      "sage-light": {
+        "role": "neutral",
+        "displayName": "Sage Light",
+        "canonical": "oklch(84.3% 0.027 138.3)",
+        "tonalRamp": [
+          "oklch(15% 0.011 138.3)",
+          "oklch(26% 0.019 138.3)",
+          "oklch(37% 0.024 138.3)",
+          "oklch(49% 0.027 138.3)",
+          "oklch(60% 0.027 138.3)",
+          "oklch(72% 0.024 138.3)",
+          "oklch(83% 0.019 138.3)",
+          "oklch(95% 0.011 138.3)"
+        ]
+      },
+      "sage-pale": {
+        "role": "neutral",
+        "displayName": "Sage Pale",
+        "canonical": "oklch(91.1% 0.020 135.8)",
+        "tonalRamp": [
+          "oklch(15% 0.008 135.8)",
+          "oklch(26% 0.014 135.8)",
+          "oklch(37% 0.018 135.8)",
+          "oklch(49% 0.020 135.8)",
+          "oklch(60% 0.020 135.8)",
+          "oklch(72% 0.018 135.8)",
+          "oklch(83% 0.014 135.8)",
+          "oklch(95% 0.008 135.8)"
+        ]
+      },
+      "rail": {
+        "role": "neutral",
+        "displayName": "Rail",
+        "canonical": "oklch(35.0% 0.028 154.7)",
+        "tonalRamp": [
+          "oklch(15% 0.011 154.7)",
+          "oklch(26% 0.019 154.7)",
+          "oklch(37% 0.025 154.7)",
+          "oklch(49% 0.028 154.7)",
+          "oklch(60% 0.028 154.7)",
+          "oklch(72% 0.025 154.7)",
+          "oklch(83% 0.020 154.7)",
+          "oklch(95% 0.011 154.7)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "canonical": "oklch(97.0% 0.007 88.6)",
+        "tonalRamp": [
+          "oklch(15% 0.003 88.6)",
+          "oklch(26% 0.005 88.6)",
+          "oklch(37% 0.006 88.6)",
+          "oklch(49% 0.007 88.6)",
+          "oklch(60% 0.007 88.6)",
+          "oklch(72% 0.006 88.6)",
+          "oklch(83% 0.005 88.6)",
+          "oklch(95% 0.003 88.6)"
+        ]
+      },
+      "paper-shade": {
+        "role": "neutral",
+        "displayName": "Paper Shade",
+        "canonical": "oklch(92.4% 0.011 95.2)",
+        "tonalRamp": [
+          "oklch(15% 0.004 95.2)",
+          "oklch(26% 0.008 95.2)",
+          "oklch(37% 0.010 95.2)",
+          "oklch(49% 0.011 95.2)",
+          "oklch(60% 0.011 95.2)",
+          "oklch(72% 0.010 95.2)",
+          "oklch(83% 0.008 95.2)",
+          "oklch(95% 0.004 95.2)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "oklch(27.5% 0.022 155.5)",
+        "tonalRamp": [
+          "oklch(15% 0.009 155.5)",
+          "oklch(26% 0.015 155.5)",
+          "oklch(37% 0.019 155.5)",
+          "oklch(49% 0.022 155.5)",
+          "oklch(60% 0.022 155.5)",
+          "oklch(72% 0.020 155.5)",
+          "oklch(83% 0.016 155.5)",
+          "oklch(95% 0.009 155.5)"
+        ]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Ink Soft",
+        "canonical": "oklch(45.0% 0.028 152.8)",
+        "tonalRamp": [
+          "oklch(15% 0.011 152.8)",
+          "oklch(26% 0.019 152.8)",
+          "oklch(37% 0.024 152.8)",
+          "oklch(49% 0.027 152.8)",
+          "oklch(60% 0.027 152.8)",
+          "oklch(72% 0.025 152.8)",
+          "oklch(83% 0.020 152.8)",
+          "oklch(95% 0.011 152.8)"
+        ]
+      },
+      "scrub-blue": {
+        "role": "primary",
+        "displayName": "Scrub Blue",
+        "canonical": "oklch(48.5% 0.132 258.5)",
+        "tonalRamp": [
+          "oklch(15% 0.054 258.5)",
+          "oklch(26% 0.091 258.5)",
+          "oklch(37% 0.116 258.5)",
+          "oklch(49% 0.130 258.5)",
+          "oklch(60% 0.131 258.5)",
+          "oklch(72% 0.118 258.5)",
+          "oklch(83% 0.094 258.5)",
+          "oklch(95% 0.054 258.5)"
+        ]
+      },
+      "scrub-blue-deep": {
+        "role": "primary",
+        "displayName": "Scrub Blue Deep",
+        "canonical": "oklch(42.2% 0.113 258.6)",
+        "tonalRamp": [
+          "oklch(15% 0.046 258.6)",
+          "oklch(26% 0.078 258.6)",
+          "oklch(37% 0.099 258.6)",
+          "oklch(49% 0.112 258.6)",
+          "oklch(60% 0.112 258.6)",
+          "oklch(72% 0.101 258.6)",
+          "oklch(83% 0.080 258.6)",
+          "oklch(95% 0.046 258.6)"
+        ]
+      },
+      "steel-light": {
+        "role": "neutral",
+        "displayName": "Steel Light",
+        "canonical": "oklch(91.4% 0.006 239.8)",
+        "tonalRamp": [
+          "oklch(15% 0.002 239.8)",
+          "oklch(26% 0.004 239.8)",
+          "oklch(37% 0.005 239.8)",
+          "oklch(49% 0.006 239.8)",
+          "oklch(60% 0.006 239.8)",
+          "oklch(72% 0.005 239.8)",
+          "oklch(83% 0.004 239.8)",
+          "oklch(95% 0.002 239.8)"
+        ]
+      },
+      "steel": {
+        "role": "neutral",
+        "displayName": "Steel",
+        "canonical": "oklch(77.1% 0.011 234.9)",
+        "tonalRamp": [
+          "oklch(15% 0.005 234.9)",
+          "oklch(26% 0.008 234.9)",
+          "oklch(37% 0.010 234.9)",
+          "oklch(49% 0.011 234.9)",
+          "oklch(60% 0.011 234.9)",
+          "oklch(72% 0.010 234.9)",
+          "oklch(83% 0.008 234.9)",
+          "oklch(95% 0.005 234.9)"
+        ]
+      },
+      "steel-dark": {
+        "role": "neutral",
+        "displayName": "Steel Dark",
+        "canonical": "oklch(57.2% 0.017 229.2)",
+        "tonalRamp": [
+          "oklch(15% 0.007 229.2)",
+          "oklch(26% 0.012 229.2)",
+          "oklch(37% 0.015 229.2)",
+          "oklch(49% 0.017 229.2)",
+          "oklch(60% 0.017 229.2)",
+          "oklch(72% 0.015 229.2)",
+          "oklch(83% 0.012 229.2)",
+          "oklch(95% 0.007 229.2)"
+        ]
+      },
+      "steel-edge": {
+        "role": "neutral",
+        "displayName": "Steel Edge",
+        "canonical": "oklch(39.5% 0.014 232.0)",
+        "tonalRamp": [
+          "oklch(15% 0.006 232.0)",
+          "oklch(26% 0.010 232.0)",
+          "oklch(37% 0.013 232.0)",
+          "oklch(49% 0.014 232.0)",
+          "oklch(60% 0.014 232.0)",
+          "oklch(72% 0.013 232.0)",
+          "oklch(83% 0.010 232.0)",
+          "oklch(95% 0.006 232.0)"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "White",
+        "canonical": "oklch(100.0% 0.000 89.9)",
+        "tonalRamp": [
+          "oklch(15% 0.000 89.9)",
+          "oklch(26% 0.000 89.9)",
+          "oklch(37% 0.000 89.9)",
+          "oklch(49% 0.000 89.9)",
+          "oklch(60% 0.000 89.9)",
+          "oklch(72% 0.000 89.9)",
+          "oklch(83% 0.000 89.9)",
+          "oklch(95% 0.000 89.9)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The hero hook only; Barlow Semi Condensed 600, balanced, at most 24ch, Ink with the final clause in Sage Deep."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Every bay h2; Ink on sage and on paper, at most 22ch."
+      },
+      "quote": {
+        "displayName": "Quote",
+        "purpose": "The epigraph band on the curtain, centred in 40rem."
+      },
+      "page-title": {
+        "displayName": "Page title",
+        "purpose": "The h1 of each inner page, directly on the curtain, at most 16ch."
+      },
+      "row-term": {
+        "displayName": "Row term",
+        "purpose": "The dt of definition rows and the title of each homepage door row."
+      },
+      "phone-big": {
+        "displayName": "Phone number",
+        "purpose": "The oversized call link on the contacts page."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "Every pill label; Barlow Semi Condensed 600 in sentence case."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "First paragraph of a bay; the one sentence a green bay may carry."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "All prose on paper at a 66ch measure."
+      },
+      "label": {
+        "displayName": "Label (signage caps)",
+        "purpose": "h3, nav, text links, plate titles, attributions; always uppercase and tracked, never on buttons."
+      },
+      "label-small": {
+        "displayName": "Label Small",
+        "purpose": "Photo captions, brand role, place line, period tags."
+      },
+      "numeral": {
+        "displayName": "Numeral",
+        "purpose": "Steps counters on terapie.html in Sage Deep on paper."
+      }
+    },
+    "shadows": [
+      {
+        "name": "paper-lift",
+        "value": "0 30px 50px -30px rgba(0,0,0,0.55), 0 2px 0 rgba(255,255,255,0.25) inset",
+        "purpose": "Sheets lifted off the curtain; the slip uses the first term only."
+      },
+      {
+        "name": "photo-lift",
+        "value": "drop-shadow(0 24px 30px rgba(0,0,0,0.35))",
+        "purpose": "Hero photo card (filter)."
+      },
+      {
+        "name": "portrait-lift",
+        "value": "drop-shadow(0 18px 24px rgba(0,0,0,0.25))",
+        "purpose": "Portraits on paper (filter)."
+      },
+      {
+        "name": "button-lift",
+        "value": "0 12px 24px -12px rgba(23,44,84,0.65), inset 0 1px 0 rgba(255,255,255,0.18)",
+        "purpose": "Primary pill at rest; hover deepens to 0 16px 28px -12px rgba(23,44,84,0.7) with the same inset."
+      },
+      {
+        "name": "rail-drop",
+        "value": "0 10px 24px -14px rgba(0,0,0,0.6)",
+        "purpose": "Sticky rail; the action bar mirrors it as 0 -10px 24px -14px."
+      },
+      {
+        "name": "curtain-edge",
+        "value": "14px 0 40px -10px rgba(0,0,0,0.55)",
+        "purpose": "Gathered inner edge of the left curtain half; mirrored (-14px) on the right."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "The only easing; used for transforms, shadows and the curtain."
+      },
+      {
+        "name": "curtain-open",
+        "value": "1.5s ease-out 0.35s both; translateX(0) to translateX(±92%) desktop, ±100% below 900px",
+        "purpose": "Hero curtain halves parting on load; removed under prefers-reduced-motion (halves rendered open)."
+      },
+      {
+        "name": "hero-in",
+        "value": "1s ease-out 1s both; opacity 0 to 1, translateY(14px) to none",
+        "purpose": "Hero content arrives after the curtain; removed under prefers-reduced-motion."
+      },
+      {
+        "name": "state-transition",
+        "value": "transform 0.25s ease-out, background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.25s ease-out",
+        "purpose": "Button, text-link and nav-ring state changes."
+      },
+      {
+        "name": "focus-ring",
+        "value": "outline 3px solid #2b5da8, offset 3px, radius 2px; #ffffff inside the rail, action bar and footer",
+        "purpose": "Global :focus-visible treatment."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "1100px",
+        "purpose": "Three-up and four-up grids fall to two columns."
+      },
+      {
+        "name": "tablet",
+        "value": "900px",
+        "purpose": "Rows, location grid, steps and duo go single column; go-rows stack description under title; nav wraps onto a second row, hero stacks, curtain exits fully, mobile action bar appears."
+      },
+      {
+        "name": "phone",
+        "value": "600px",
+        "purpose": "All grids single column; facts stack key over value; buttons may wrap; epigraph gains side padding."
+      }
+    ],
+    "textures": [
+      {
+        "name": "curtain-ground",
+        "value": "repeating-linear-gradient(90deg, rgba(255,255,255,0) 0, rgba(255,255,255,0.085) 18px, rgba(255,255,255,0) 36px, rgba(0,0,0,0) 36px, rgba(0,0,0,0.13) 56.16px, rgba(0,0,0,0) 72px), repeating-linear-gradient(90deg, rgba(255,255,255,0) 0, rgba(255,255,255,0.045) 41px, rgba(0,0,0,0.055) 80px, rgba(0,0,0,0) 113px), repeating-linear-gradient(91.5deg, rgba(0,0,0,0) 0, rgba(0,0,0,0.04) 150px, rgba(255,255,255,0.03) 230px, rgba(0,0,0,0) 301px), linear-gradient(180deg, rgba(0,0,0,0.06), rgba(0,0,0,0) 30%, rgba(0,0,0,0.08))",
+        "purpose": "Body background over #9db09a, background-attachment: fixed; the 72px pleat pitch is --pleat."
+      },
+      {
+        "name": "curtain-halves",
+        "value": "repeating-linear-gradient(90deg, rgba(255,255,255,0) 0, rgba(255,255,255,0.13) 9.52px, rgba(255,255,255,0) 17px, rgba(0,0,0,0) 17px, rgba(0,0,0,0.28) 27.2px, rgba(0,0,0,0) 34px), repeating-linear-gradient(90deg, rgba(255,255,255,0) 0, rgba(255,255,255,0.05) 21px, rgba(0,0,0,0.07) 38px, rgba(0,0,0,0) 53px)",
+        "purpose": "The parting halves over #7f9480 (--p: 34px), masked to transparent over the bottom 20%."
+      },
+      {
+        "name": "steel-rail",
+        "value": "linear-gradient(180deg, #ffffff 0, #ffffff 1px, #dfe3e6 1px, #aeb6bb 55%, #6e7a80 92%, #3f484d)",
+        "purpose": "Rail border-image, 14px."
+      },
+      {
+        "name": "steel-bar",
+        "value": "linear-gradient(180deg, #dfe3e6, #aeb6bb 45%, #6e7a80)",
+        "purpose": "Mobile action bar border-image, 6px."
+      },
+      {
+        "name": "perforation",
+        "value": "radial-gradient(circle at 7px 6px, #9db09a 2.6px, transparent 3.2px) 0 0 / 14px 14px repeat-x, linear-gradient(180deg, #e8e6de, #f7f5f0)",
+        "purpose": "14px strip at the top of every sheet and slip."
+      },
+      {
+        "name": "perforation-caption",
+        "value": "radial-gradient(circle at 6px 5px, #e8e6de 2.2px, transparent 2.8px) 0 0 / 12px 10px repeat-x",
+        "purpose": "10px strip at the top of the hero photo's paper caption."
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Barlow Condensed",
+        "weights": [
+          500,
+          600
+        ],
+        "source": "fonts/barlow-condensed-{500,600}.woff2",
+        "display": "swap"
+      },
+      {
+        "family": "Barlow Semi Condensed",
+        "weights": [
+          500,
+          600
+        ],
+        "source": "fonts/barlow-semi-condensed-{500,600}.woff2",
+        "display": "swap",
+        "preload": [
+          600
+        ]
+      },
+      {
+        "family": "Source Sans 3",
+        "weights": [
+          400,
+          "400 italic",
+          600
+        ],
+        "source": "fonts/source-sans-3-{400,400-italic,600}.woff2",
+        "display": "swap",
+        "preload": [
+          400
+        ]
+      }
+    ],
+    "pages": {
+      "index": "Home (slim front door: hero, argument sheet, epigraph, door rows, teaser duo, closing band)",
+      "chi-sono": "Chi sono",
+      "terapie": "Terapie",
+      "contatti": "Contatti (Dove e contatti: booking, location sheets, online bay, first-visit checklist, emergency notice)",
+      "removed": "dove-ricevo.html no longer exists",
+      "unusedCss": ".plaque*, .plaques, .stages, .conditions, .condition-group, .conditions-foot, .location .plate; .perche already gone; not documented as system parts",
+      "navState": "Each page marks its own rail item aria-current=page; footer nav never marked",
+      "bookingExits": "MioDottore profile, tel: links, own pages; maps and practice sites on dove-ricevo only"
+    },
+    "layout": {
+      "column": "1180px",
+      "railHeight": "64px",
+      "railBorder": "14px",
+      "pleatPitch": "72px",
+      "actionBarBodyPadding": "86px",
+      "epigraphColumn": "40rem"
+    },
+    "accessibility": [
+      "Text on the sage curtain is Ink #1f2b23 (6.4:1 on #9db09a); white text is confined to the dark fitting #2f3f34 (11.2:1).",
+      "Scrub blue is reserved for actions, so colour alone never carries meaning elsewhere.",
+      "Global :focus-visible ring 3px #2b5da8 at 3px offset; white inside the rail, action bar and footer.",
+      "Mobile nav wraps onto two rows instead of scrolling; no content is hidden behind a mask.",
+      "Minimum targets: pills 54px, small pill and nav 44px, action bar 50px.",
+      "External links carry the ext icon plus visually hidden '(si apre in una nuova pagina)' where needed.",
+      "prefers-reduced-motion removes the curtain and hero animations and renders the curtain open.",
+      "Emergency notice band carries no buttons; opening hours are never invented (agenda link only).",
+      "Content readable without JavaScript; images carry descriptive Italian alt text."
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Scrub-blue pill, sentence case, external-link icon in a tinted disc; the only blue fill on the page.",
+      "html": "<div class=\"ds-ground\"><a class=\"ds-btn ds-btn-primary\" href=\"#\">Prenota su MioDottore<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6\"/><path d=\"M15 3h6v6\"/><path d=\"M10 14 21 3\"/></svg></a></div>",
+      "css": ".ds-ground{background:var(--green-700,#9db09a);color:var(--ink,#1f2b23);padding:24px;display:flex;gap:1rem;flex-wrap:wrap;align-items:center}.ds-btn{display:inline-flex;align-items:center;gap:.75rem;min-height:54px;padding:.6rem 1.6rem .6rem 1.7rem;border-radius:999px;font-family:'Barlow Semi Condensed','Arial Narrow',sans-serif;font-weight:600;font-size:1.12rem;letter-spacing:.005em;text-decoration:none;white-space:nowrap;transition:transform .25s cubic-bezier(.16,1,.3,1),background-color .2s,color .2s,border-color .2s,box-shadow .25s cubic-bezier(.16,1,.3,1)}.ds-btn svg{flex:none;width:1.75em;height:1.75em;padding:.42em;border-radius:50%;margin-right:-.55em}.ds-btn svg:first-child{margin-right:0;margin-left:-.55em}.ds-btn:focus-visible{outline:3px solid var(--blue,#2b5da8);outline-offset:3px}.ds-btn-primary{background:var(--blue,#2b5da8);color:#fff;box-shadow:0 12px 24px -12px rgba(23,44,84,.65),inset 0 1px 0 rgba(255,255,255,.18)}.ds-btn-primary svg{background:rgba(255,255,255,.18)}.ds-btn-primary:hover{background:var(--blue-700,#234c8a);transform:translateY(-1px);box-shadow:0 16px 28px -12px rgba(23,44,84,.7),inset 0 1px 0 rgba(255,255,255,.18)}.ds-btn-primary:active{transform:translateY(0)}.ds-btn-ghost{color:var(--ink,#1f2b23);border:2px solid currentColor;background:transparent}.ds-btn-ghost svg{background:rgba(31,43,35,.08)}.ds-btn-ghost:hover{background:var(--ink,#1f2b23);color:var(--paper,#f7f5f0);border-color:var(--ink,#1f2b23)}.ds-btn-ghost:hover svg{background:rgba(255,255,255,.15)}.ds-btn-small{min-height:44px;font-size:1rem;padding:.35rem 1.1rem .35rem 1.2rem}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Ink-stroked pill with the phone icon leading in a faint disc; inverts to ink on hover. Same on sage and paper.",
+      "html": "<div class=\"ds-ground\"><a class=\"ds-btn ds-btn-ghost\" href=\"#\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z\"/></svg>351 374 4685</a></div>",
+      "css": ".ds-ground{background:var(--green-700,#9db09a);color:var(--ink,#1f2b23);padding:24px;display:flex;gap:1rem;flex-wrap:wrap;align-items:center}.ds-btn{display:inline-flex;align-items:center;gap:.75rem;min-height:54px;padding:.6rem 1.6rem .6rem 1.7rem;border-radius:999px;font-family:'Barlow Semi Condensed','Arial Narrow',sans-serif;font-weight:600;font-size:1.12rem;letter-spacing:.005em;text-decoration:none;white-space:nowrap;transition:transform .25s cubic-bezier(.16,1,.3,1),background-color .2s,color .2s,border-color .2s,box-shadow .25s cubic-bezier(.16,1,.3,1)}.ds-btn svg{flex:none;width:1.75em;height:1.75em;padding:.42em;border-radius:50%;margin-right:-.55em}.ds-btn svg:first-child{margin-right:0;margin-left:-.55em}.ds-btn:focus-visible{outline:3px solid var(--blue,#2b5da8);outline-offset:3px}.ds-btn-primary{background:var(--blue,#2b5da8);color:#fff;box-shadow:0 12px 24px -12px rgba(23,44,84,.65),inset 0 1px 0 rgba(255,255,255,.18)}.ds-btn-primary svg{background:rgba(255,255,255,.18)}.ds-btn-primary:hover{background:var(--blue-700,#234c8a);transform:translateY(-1px);box-shadow:0 16px 28px -12px rgba(23,44,84,.7),inset 0 1px 0 rgba(255,255,255,.18)}.ds-btn-primary:active{transform:translateY(0)}.ds-btn-ghost{color:var(--ink,#1f2b23);border:2px solid currentColor;background:transparent}.ds-btn-ghost svg{background:rgba(31,43,35,.08)}.ds-btn-ghost:hover{background:var(--ink,#1f2b23);color:var(--paper,#f7f5f0);border-color:var(--ink,#1f2b23)}.ds-btn-ghost:hover svg{background:rgba(255,255,255,.15)}.ds-btn-small{min-height:44px;font-size:1rem;padding:.35rem 1.1rem .35rem 1.2rem}"
+    },
+    {
+      "name": "Text Link",
+      "kind": "custom",
+      "refersTo": "text-link",
+      "description": "Signage-caps link with a 2px rule and an arrow that slides on hover.",
+      "html": "<div class=\"ds-paper\"><a class=\"ds-text-link\" href=\"#\">Tutte le terapie<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14\"/><path d=\"m12 5 7 7-7 7\"/></svg></a></div>",
+      "css": ".ds-paper{background:var(--paper,#f7f5f0);color:var(--ink,#1f2b23);padding:24px;font-family:'Source Sans 3','Segoe UI','Helvetica Neue',sans-serif;font-size:1.125rem;line-height:1.6}.ds-text-link{display:inline-flex;align-items:center;gap:.4rem;font-family:'Barlow Condensed','Arial Narrow',sans-serif;font-weight:600;font-size:1.05rem;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;color:inherit;border-bottom:2px solid currentColor;padding-bottom:.1rem}.ds-text-link svg{width:1.15em;height:1.15em;flex:none;transition:transform .25s cubic-bezier(.16,1,.3,1)}.ds-text-link:hover{gap:.7rem}.ds-text-link:hover svg{transform:translateX(3px)}.ds-text-link:focus-visible{outline:3px solid var(--blue,#2b5da8);outline-offset:3px;border-radius:2px}"
+    },
+    {
+      "name": "Steel Rail with Ring Nav",
+      "kind": "nav",
+      "refersTo": "rail",
+      "description": "Sticky header on the dark fitting: brushed-steel top edge, brand name over role, nav items hanging from steel rings, small blue pill.",
+      "html": "<header class=\"ds-rail\"><div class=\"ds-rail-inner\"><a class=\"ds-brand\" href=\"#\"><span class=\"ds-brand-name\">Dott.ssa Valentina Tanga</span><span class=\"ds-brand-role\">Terapia del dolore</span></a><nav class=\"ds-nav\"><a href=\"#\" aria-current=\"page\">Home</a><a href=\"#\">Chi sono</a><a href=\"#\">Terapie</a><a href=\"#\">Dove ricevo</a><a href=\"#\">Contatti</a></nav><a class=\"ds-btn ds-btn-primary ds-btn-small\" href=\"#\">Prenota<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6\"/><path d=\"M15 3h6v6\"/><path d=\"M10 14 21 3\"/></svg></a></div></header>",
+      "css": ".ds-rail{background:var(--green-900,#2f3f34);color:#fff;border-top:14px solid;border-image:linear-gradient(180deg,#fff 0,#fff 1px,#dfe3e6 1px,#aeb6bb 55%,#6e7a80 92%,#3f484d) 1;box-shadow:0 10px 24px -14px rgba(0,0,0,.6)}.ds-rail-inner{min-height:64px;padding:0 1.5rem;display:flex;align-items:center;gap:1.5rem}.ds-brand{display:flex;flex-direction:column;text-decoration:none;color:#fff;line-height:1.05;padding:.5rem 0}.ds-brand-name{font-family:'Barlow Semi Condensed','Arial Narrow',sans-serif;font-weight:600;font-size:1.35rem;letter-spacing:.01em;white-space:nowrap}.ds-brand-role{font-family:'Barlow Condensed','Arial Narrow',sans-serif;font-weight:500;font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:var(--green-300,#c3d0bf)}.ds-nav{margin-left:auto;display:flex;align-items:center;gap:.25rem}.ds-nav a{position:relative;display:inline-flex;align-items:center;min-height:44px;padding:0 .85rem;font-family:'Barlow Condensed','Arial Narrow',sans-serif;font-weight:600;font-size:1.02rem;letter-spacing:.07em;text-transform:uppercase;text-decoration:none;white-space:nowrap;color:#fff}.ds-nav a::before{content:'';position:absolute;top:-5px;left:50%;width:9px;height:9px;margin-left:-5px;border:2px solid var(--steel,#aeb6bb);border-radius:50%;opacity:.45;transition:opacity .25s cubic-bezier(.16,1,.3,1)}.ds-nav a:hover{color:var(--green-200,#dce5d8)}.ds-nav a:hover::before,.ds-nav a[aria-current=page]::before{opacity:1}.ds-nav a[aria-current=page]{color:var(--green-300,#c3d0bf)}.ds-rail :focus-visible{outline:3px solid #fff;outline-offset:3px;border-radius:2px}.ds-rail .ds-btn{margin-left:.5rem}.ds-btn{display:inline-flex;align-items:center;gap:.75rem;min-height:54px;padding:.6rem 1.6rem .6rem 1.7rem;border-radius:999px;font-family:'Barlow Semi Condensed','Arial Narrow',sans-serif;font-weight:600;font-size:1.12rem;letter-spacing:.005em;text-decoration:none;white-space:nowrap;transition:transform .25s cubic-bezier(.16,1,.3,1),background-color .2s,color .2s,border-color .2s,box-shadow .25s cubic-bezier(.16,1,.3,1)}.ds-btn svg{flex:none;width:1.75em;height:1.75em;padding:.42em;border-radius:50%;margin-right:-.55em}.ds-btn svg:first-child{margin-right:0;margin-left:-.55em}.ds-btn:focus-visible{outline:3px solid var(--blue,#2b5da8);outline-offset:3px}.ds-btn-primary{background:var(--blue,#2b5da8);color:#fff;box-shadow:0 12px 24px -12px rgba(23,44,84,.65),inset 0 1px 0 rgba(255,255,255,.18)}.ds-btn-primary svg{background:rgba(255,255,255,.18)}.ds-btn-primary:hover{background:var(--blue-700,#234c8a);transform:translateY(-1px);box-shadow:0 16px 28px -12px rgba(23,44,84,.7),inset 0 1px 0 rgba(255,255,255,.18)}.ds-btn-primary:active{transform:translateY(0)}.ds-btn-ghost{color:var(--ink,#1f2b23);border:2px solid currentColor;background:transparent}.ds-btn-ghost svg{background:rgba(31,43,35,.08)}.ds-btn-ghost:hover{background:var(--ink,#1f2b23);color:var(--paper,#f7f5f0);border-color:var(--ink,#1f2b23)}.ds-btn-ghost:hover svg{background:rgba(255,255,255,.15)}.ds-btn-small{min-height:44px;font-size:1rem;padding:.35rem 1.1rem .35rem 1.2rem}.ds-rail .ds-btn:focus-visible{outline-color:#fff}"
+    },
+    {
+      "name": "Paper Sheet",
+      "kind": "card",
+      "refersTo": "sheet",
+      "description": "A sheet torn from the bed's paper roll: perforated top edge with sage dots, paper lift shadow, heading and prose in ink.",
+      "html": "<div class=\"ds-ground ds-ground-block\"><section class=\"ds-sheet\"><div class=\"ds-sheet-inner\"><h2 class=\"ds-h2\">Le condizioni di cui mi occupo</h2><div class=\"ds-group\"><h3 class=\"ds-h3\">Schiena e collo</h3><ul class=\"ds-list\"><li>Lombalgia</li><li>Lombosciatalgia</li><li>Cervicalgia</li></ul></div></div></section></div>",
+      "css": ".ds-ground-block{display:block;background:var(--green-700,#9db09a);padding:32px 24px}.ds-sheet{background:var(--paper,#f7f5f0);color:var(--ink,#1f2b23);position:relative;box-shadow:0 30px 50px -30px rgba(0,0,0,.55),0 2px 0 rgba(255,255,255,.25) inset;font-family:'Source Sans 3','Segoe UI','Helvetica Neue',sans-serif;font-size:1.125rem;line-height:1.6}.ds-sheet::before{content:'';display:block;height:14px;background:radial-gradient(circle at 7px 6px,var(--green-700,#9db09a) 2.6px,transparent 3.2px) 0 0/14px 14px repeat-x,linear-gradient(180deg,var(--paper-2,#e8e6de),var(--paper,#f7f5f0))}.ds-sheet-inner{padding:2.5rem 2rem}.ds-h2{margin:0;font-family:'Barlow Semi Condensed','Arial Narrow',sans-serif;font-weight:600;font-size:clamp(2rem,1.3rem + 2.2vw,3.1rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance;max-width:22ch}.ds-group{margin-top:2.5rem;border-top:2px solid var(--green-300,#c3d0bf);padding-top:1rem;max-width:20rem}.ds-h3{margin:0;font-family:'Barlow Condensed','Arial Narrow',sans-serif;font-weight:600;letter-spacing:.08em;text-transform:uppercase;font-size:1.05rem;color:var(--ink-2,#4a5a4e)}.ds-list{list-style:none;margin:.6rem 0 0;padding:0}.ds-list li{padding:.28rem 0;font-size:1.15rem}"
+    },
+    {
+      "name": "Paper Slip",
+      "kind": "card",
+      "refersTo": "slip",
+      "description": "A smaller paper laid on the curtain inside a green bay for copy too long for the ground; same perforation, no inner highlight.",
+      "html": "<div class=\"ds-ground ds-ground-block\"><div class=\"ds-slip\"><p class=\"ds-slip-intro\">Trova indicazione soprattutto nelle ernie e protrusioni discali e nei conflitti disco-radicolari.</p><dl class=\"ds-tech\"><div><dt>Intra-articolare</dt><dd>In qualsiasi articolazione, con la stessa tecnica delle normali infiltrazioni articolari.</dd></div></dl><p class=\"ds-note\">L'indicazione si valuta in visita, con la documentazione clinica alla mano.</p></div></div>",
+      "css": ".ds-ground-block{display:block;background:var(--green-700,#9db09a);padding:32px 24px}.ds-slip{--slip-pad:clamp(1.25rem,3vw,2.5rem);background:var(--paper,#f7f5f0);color:var(--ink,#1f2b23);padding:0 var(--slip-pad) var(--slip-pad);box-shadow:0 30px 50px -30px rgba(0,0,0,.55);font-family:'Source Sans 3','Segoe UI','Helvetica Neue',sans-serif;font-size:1.125rem;line-height:1.6}.ds-slip::before{content:'';display:block;height:14px;margin:0 calc(-1*var(--slip-pad));background:radial-gradient(circle at 7px 6px,var(--green-700,#9db09a) 2.6px,transparent 3.2px) 0 0/14px 14px repeat-x,linear-gradient(180deg,var(--paper-2,#e8e6de),var(--paper,#f7f5f0))}.ds-slip-intro{margin:0;max-width:66ch;padding-top:1.75rem}.ds-tech{margin:2rem 0 0}.ds-tech>div{border-top:2px solid var(--green-300,#c3d0bf);padding-top:1rem;max-width:24rem}.ds-tech dt{font-family:'Barlow Condensed','Arial Narrow',sans-serif;font-weight:600;font-size:1.1rem;letter-spacing:.07em;text-transform:uppercase}.ds-tech dd{margin:.5rem 0 0}.ds-note{margin:2rem 0 0;max-width:66ch;padding:1rem 1.25rem;border:1px solid var(--green-300,#c3d0bf);border-radius:4px}"
+    },
+    {
+      "name": "Epigraph",
+      "kind": "custom",
+      "refersTo": "epigraph",
+      "description": "The Pavese line as its own centred band on the curtain, with a short ink rule above the signage attribution.",
+      "html": "<section class=\"ds-epigraph\"><blockquote class=\"ds-quote\"><p>«Ma la grande, la tremenda verità è questa: soffrire non serve a niente.»</p><footer>Cesare Pavese</footer></blockquote></section>",
+      "css": ".ds-epigraph{background:var(--green-700,#9db09a);padding:clamp(2.5rem,7vh,5rem) 1.5rem}.ds-quote{max-width:40rem;margin:0 auto;text-align:center}.ds-quote p{margin:0;font-family:'Barlow Semi Condensed','Arial Narrow',sans-serif;font-weight:500;font-size:clamp(1.7rem,1.2rem + 1.8vw,2.7rem);line-height:1.12;color:var(--ink,#1f2b23);text-wrap:balance}.ds-quote footer{margin-top:1.1rem;font-family:'Barlow Condensed','Arial Narrow',sans-serif;font-weight:600;font-size:1rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink,#1f2b23)}.ds-quote footer::before{content:'';display:block;width:3rem;height:2px;margin:0 auto .9rem;background:var(--ink,#1f2b23)}"
+    },
+    {
+      "name": "Door Rows (homepage)",
+      "kind": "nav",
+      "refersTo": "go-row",
+      "description": "Whole-row links on paper: Row term title, short description, blue arrow; arrow slides on hover.",
+      "html": "<div class=\"ds-paper\"><ul class=\"ds-go\"><li><a href=\"#\"><span class=\"t\">Le terapie</span><span class=\"d\">Il percorso dalla prima visita alla cura, la terapia farmacologica e iniettiva e le terapie ulteriori.</span><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14\"/><path d=\"m12 5 7 7-7 7\"/></svg></a></li><li><a href=\"#\"><span class=\"t\">Chi sono</span><span class=\"d\">Formazione, esperienza ospedaliera e le condizioni di cui mi occupo.</span><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14\"/><path d=\"m12 5 7 7-7 7\"/></svg></a></li></ul></div>",
+      "css": ".ds-paper{background:var(--paper,#f7f5f0);color:var(--ink,#1f2b23);padding:24px;font-family:'Source Sans 3','Segoe UI','Helvetica Neue',sans-serif;font-size:1.125rem;line-height:1.6}.ds-go{list-style:none;margin:0;padding:0;border-top:2px solid var(--green-300,#c3d0bf)}.ds-go a{display:grid;grid-template-columns:minmax(0,4fr) minmax(0,7fr) auto;gap:.4rem 2rem;align-items:center;padding:1.35rem 0;border-bottom:1px solid var(--paper-2,#e8e6de);color:var(--ink,#1f2b23);text-decoration:none}.ds-go .t{font-family:'Barlow Semi Condensed','Arial Narrow',sans-serif;font-weight:600;font-size:1.35rem;line-height:1.15}.ds-go .d{max-width:52ch}.ds-go svg{width:1.4rem;height:1.4rem;color:var(--blue,#2b5da8);transition:transform .25s cubic-bezier(.16,1,.3,1)}.ds-go a:hover .t{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:.2em}.ds-go a:hover svg{transform:translateX(4px)}.ds-go a:focus-visible{outline:3px solid var(--blue,#2b5da8);outline-offset:3px;border-radius:2px}"
+    },
+    {
+      "name": "Teaser Duo",
+      "kind": "custom",
+      "refersTo": "duo-heading",
+      "description": "Green bay with two equal teasers: reduced Headline, one lead sentence, one text link each.",
+      "html": "<section class=\"ds-duo\"><div><h2>Ossigeno-ozono terapia</h2><p class=\"ds-lead\">Una miscela di ossigeno e ozono, iniettata dove serve: per ernie del disco, dolori articolari, cervicalgia e lombalgia.</p><a class=\"ds-text-link\" href=\"#\">Come funziona<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14\"/><path d=\"m12 5 7 7-7 7\"/></svg></a></div><div><h2>Consulenza online</h2><p class=\"ds-lead\">Una visita in videochiamata, dal computer o dallo smartphone, prenotata dall'agenda su MioDottore.</p><a class=\"ds-text-link\" href=\"#\">Come si svolge<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14\"/><path d=\"m12 5 7 7-7 7\"/></svg></a></div></section>",
+      "css": ".ds-duo{background:var(--green-700,#9db09a);color:var(--ink,#1f2b23);padding:clamp(3rem,8vh,6rem) 1.5rem;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:3rem clamp(2rem,5vw,5rem);font-family:'Source Sans 3','Segoe UI','Helvetica Neue',sans-serif;line-height:1.6}.ds-duo h2{margin:0;font-family:'Barlow Semi Condensed','Arial Narrow',sans-serif;font-weight:600;font-size:clamp(1.8rem,1.2rem + 1.8vw,2.6rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}.ds-lead{margin:1rem 0 0;max-width:66ch;font-size:1.25rem}.ds-text-link{display:inline-flex;align-items:center;gap:.4rem;margin-top:1.5rem;font-family:'Barlow Condensed','Arial Narrow',sans-serif;font-weight:600;font-size:1.05rem;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;color:inherit;border-bottom:2px solid currentColor;padding-bottom:.1rem}.ds-text-link svg{width:1.15em;height:1.15em;transition:transform .25s cubic-bezier(.16,1,.3,1)}.ds-text-link:hover{gap:.7rem}.ds-text-link:hover svg{transform:translateX(3px)}.ds-text-link:focus-visible{outline:3px solid var(--blue,#2b5da8);outline-offset:3px;border-radius:2px}"
+    },
+    {
+      "name": "Mobile Action Bar",
+      "kind": "nav",
+      "refersTo": "action-bar",
+      "description": "Fixed bottom bar below 900px on the dark fitting: steel top edge, white ghost Chiama and primary Prenota at equal width.",
+      "html": "<div class=\"ds-action-bar\"><a class=\"ds-btn ds-btn-ghost\" href=\"#\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z\"/></svg>Chiama</a><a class=\"ds-btn ds-btn-primary\" href=\"#\">Prenota<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6\"/><path d=\"M15 3h6v6\"/><path d=\"M10 14 21 3\"/></svg></a></div>",
+      "css": ".ds-action-bar{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;padding:.6rem 1rem;background:var(--green-900,#2f3f34);border-top:6px solid;border-image:linear-gradient(180deg,#dfe3e6,#aeb6bb 45%,#6e7a80) 1;box-shadow:0 -10px 24px -14px rgba(0,0,0,.6);max-width:390px}.ds-btn{display:inline-flex;align-items:center;gap:.75rem;min-height:54px;padding:.6rem 1.6rem .6rem 1.7rem;border-radius:999px;font-family:'Barlow Semi Condensed','Arial Narrow',sans-serif;font-weight:600;font-size:1.12rem;letter-spacing:.005em;text-decoration:none;white-space:nowrap;transition:transform .25s cubic-bezier(.16,1,.3,1),background-color .2s,color .2s,border-color .2s,box-shadow .25s cubic-bezier(.16,1,.3,1)}.ds-btn svg{flex:none;width:1.75em;height:1.75em;padding:.42em;border-radius:50%;margin-right:-.55em}.ds-btn svg:first-child{margin-right:0;margin-left:-.55em}.ds-btn:focus-visible{outline:3px solid var(--blue,#2b5da8);outline-offset:3px}.ds-btn-primary{background:var(--blue,#2b5da8);color:#fff;box-shadow:0 12px 24px -12px rgba(23,44,84,.65),inset 0 1px 0 rgba(255,255,255,.18)}.ds-btn-primary svg{background:rgba(255,255,255,.18)}.ds-btn-primary:hover{background:var(--blue-700,#234c8a);transform:translateY(-1px);box-shadow:0 16px 28px -12px rgba(23,44,84,.7),inset 0 1px 0 rgba(255,255,255,.18)}.ds-btn-primary:active{transform:translateY(0)}.ds-btn-ghost{color:var(--ink,#1f2b23);border:2px solid currentColor;background:transparent}.ds-btn-ghost svg{background:rgba(31,43,35,.08)}.ds-btn-ghost:hover{background:var(--ink,#1f2b23);color:var(--paper,#f7f5f0);border-color:var(--ink,#1f2b23)}.ds-btn-ghost:hover svg{background:rgba(255,255,255,.15)}.ds-btn-small{min-height:44px;font-size:1rem;padding:.35rem 1.1rem .35rem 1.2rem}.ds-action-bar .ds-btn{justify-content:center;width:100%;min-height:50px;padding-inline:.6rem}.ds-action-bar .ds-btn-ghost{color:#fff;border-color:rgba(255,255,255,.85)}.ds-action-bar .ds-btn-ghost:hover{color:var(--green-900,#2f3f34);background:#fff}.ds-action-bar .ds-btn:focus-visible{outline-color:#fff}"
+    },
+    {
+      "name": "Page Head",
+      "kind": "custom",
+      "refersTo": "page-head",
+      "description": "Inner-page title block directly on the curtain: Page title, optional signage byline in Ink, large lead.",
+      "html": "<header class=\"ds-page-head\"><h1>Valentina Tanga</h1><p class=\"ds-byline\">Specialista in Anestesia, Rianimazione e Terapia del Dolore</p><p class=\"ds-lead\">Mi occupo di dolore acuto e cronico, benigno e oncologico: lo cerco alla radice, con la visita.</p></header>",
+      "css": ".ds-page-head{background:var(--green-700,#9db09a);color:var(--ink,#1f2b23);padding:clamp(3rem,9vh,5.5rem) 1.5rem clamp(2rem,6vh,3.5rem);font-family:'Source Sans 3','Segoe UI','Helvetica Neue',sans-serif;line-height:1.6}.ds-page-head h1{margin:0;font-family:'Barlow Semi Condensed','Arial Narrow',sans-serif;font-weight:600;font-size:clamp(2.6rem,1.8rem + 3vw,4.25rem);line-height:1.02;letter-spacing:-.012em;text-wrap:balance;max-width:16ch}.ds-byline{margin:1rem 0 0;font-family:'Barlow Condensed','Arial Narrow',sans-serif;font-weight:600;letter-spacing:.08em;text-transform:uppercase;font-size:1.05rem;color:var(--ink,#1f2b23)}.ds-lead{margin:1.25rem 0 0;max-width:58ch;font-size:1.3rem}"
+    },
+    {
+      "name": "Definition Rows",
+      "kind": "custom",
+      "refersTo": "rows-term",
+      "description": "A dl on paper, one treatment or fact per row: sage-light top rule, 4fr/8fr term and text, hairline separators.",
+      "html": "<div class=\"ds-paper\"><dl class=\"ds-rows\"><div><dt>Laurea</dt><dd>Universit\\u00e0 degli Studi di Cagliari, 2016.</dd></div><div><dt>Specializzazione</dt><dd>Anestesia, Rianimazione e Terapia del Dolore, Universit\\u00e0 degli Studi di Sassari.</dd></div></dl></div>",
+      "css": ".ds-paper{background:var(--paper,#f7f5f0);color:var(--ink,#1f2b23);padding:24px;font-family:'Source Sans 3','Segoe UI','Helvetica Neue',sans-serif;font-size:1.125rem;line-height:1.6}.ds-rows{margin:0;border-top:2px solid var(--green-300,#c3d0bf)}.ds-rows>div{display:grid;grid-template-columns:minmax(0,4fr) minmax(0,8fr);gap:.5rem 3rem;padding:1.4rem 0;border-bottom:1px solid var(--paper-2,#e8e6de)}.ds-rows dt{font-family:'Barlow Semi Condensed','Arial Narrow',sans-serif;font-weight:600;font-size:1.35rem;line-height:1.15}.ds-rows dd{margin:0;max-width:66ch}"
+    },
+    {
+      "name": "Location Sheet with Facts",
+      "kind": "card",
+      "refersTo": "facts-key",
+      "description": "A practice on contatti.html: name and city at left; facts list (key caps, value, blue links) and a primary plus ghost pill row at right.",
+      "html": "<div class=\"ds-ground ds-ground-block\"><section class=\"ds-sheet ds-loc\"><div class=\"ds-loc-grid\"><div><h2 class=\"ds-h2\">Centro Medico Amana</h2><p class=\"ds-byline\">09126 Cagliari</p></div><div><ul class=\"ds-facts\"><li><span class=\"ds-k\">Indirizzo</span><span>Via dei Colombi 3, 09126 Cagliari</span></li><li><span class=\"ds-k\">Telefono</span><a class=\"ds-link\" href=\"#\">351 374 4685</a></li></ul><div class=\"ds-actions\"><a class=\"ds-btn ds-btn-primary\" href=\"#\">Prenota su MioDottore<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6\"/><path d=\"M15 3h6v6\"/><path d=\"M10 14 21 3\"/></svg></a><a class=\"ds-btn ds-btn-ghost\" href=\"#\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"/><circle cx=\"12\" cy=\"10\" r=\"3\"/></svg>Apri la mappa</a></div></div></div></section></div>",
+      "css": ".ds-ground-block{display:block;background:var(--green-700,#9db09a);padding:32px 24px}.ds-sheet{background:var(--paper,#f7f5f0);color:var(--ink,#1f2b23);position:relative;box-shadow:0 30px 50px -30px rgba(0,0,0,.55),0 2px 0 rgba(255,255,255,.25) inset;font-family:'Source Sans 3','Segoe UI','Helvetica Neue',sans-serif;font-size:1.125rem;line-height:1.6}.ds-sheet::before{content:'';display:block;height:14px;background:radial-gradient(circle at 7px 6px,var(--green-700,#9db09a) 2.6px,transparent 3.2px) 0 0/14px 14px repeat-x,linear-gradient(180deg,var(--paper-2,#e8e6de),var(--paper,#f7f5f0))}.ds-loc-grid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:2rem 3rem;padding:2.5rem 2rem;align-items:start}.ds-h2{margin:0;font-family:'Barlow Semi Condensed','Arial Narrow',sans-serif;font-weight:600;font-size:clamp(2rem,1.3rem + 2.2vw,3.1rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance;max-width:22ch}.ds-byline{margin:.75rem 0 0;font-family:'Barlow Condensed','Arial Narrow',sans-serif;font-weight:600;letter-spacing:.08em;text-transform:uppercase;font-size:1.05rem;color:var(--green-500,#5c7360)}.ds-facts{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}.ds-facts li{display:grid;grid-template-columns:9.5rem minmax(0,1fr);gap:.3rem 1.5rem;padding:.7rem 0;border-bottom:1px solid var(--paper-2,#e8e6de)}.ds-facts li:last-child{border-bottom:0}.ds-k{font-family:'Barlow Condensed','Arial Narrow',sans-serif;font-weight:600;font-size:.95rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-2,#4a5a4e);padding-top:.2rem}.ds-link{color:var(--blue,#2b5da8);font-weight:600;text-decoration:none}.ds-link:hover{text-decoration:underline}.ds-actions{margin-top:1.5rem;display:flex;flex-wrap:wrap;gap:.8rem 1rem}.ds-btn{display:inline-flex;align-items:center;gap:.75rem;min-height:54px;padding:.6rem 1.6rem .6rem 1.7rem;border-radius:999px;font-family:'Barlow Semi Condensed','Arial Narrow',sans-serif;font-weight:600;font-size:1.12rem;letter-spacing:.005em;text-decoration:none;white-space:nowrap;transition:transform .25s cubic-bezier(.16,1,.3,1),background-color .2s,color .2s,border-color .2s,box-shadow .25s cubic-bezier(.16,1,.3,1)}.ds-btn svg{flex:none;width:1.75em;height:1.75em;padding:.42em;border-radius:50%;margin-right:-.55em}.ds-btn svg:first-child{margin-right:0;margin-left:-.55em}.ds-btn:focus-visible{outline:3px solid var(--blue,#2b5da8);outline-offset:3px}.ds-btn-primary{background:var(--blue,#2b5da8);color:#fff;box-shadow:0 12px 24px -12px rgba(23,44,84,.65),inset 0 1px 0 rgba(255,255,255,.18)}.ds-btn-primary svg{background:rgba(255,255,255,.18)}.ds-btn-primary:hover{background:var(--blue-700,#234c8a);transform:translateY(-1px);box-shadow:0 16px 28px -12px rgba(23,44,84,.7),inset 0 1px 0 rgba(255,255,255,.18)}.ds-btn-primary:active{transform:translateY(0)}.ds-btn-ghost{color:var(--ink,#1f2b23);border:2px solid currentColor;background:transparent}.ds-btn-ghost svg{background:rgba(31,43,35,.08)}.ds-btn-ghost:hover{background:var(--ink,#1f2b23);color:var(--paper,#f7f5f0);border-color:var(--ink,#1f2b23)}.ds-btn-ghost:hover svg{background:rgba(255,255,255,.15)}.ds-btn-small{min-height:44px;font-size:1rem;padding:.35rem 1.1rem .35rem 1.2rem}"
+    },
+    {
+      "name": "Steps (numbered protocol)",
+      "kind": "custom",
+      "refersTo": "steps-numeral",
+      "description": "Terapie pathway on paper: Sage Deep condensed numerals over signage titles and body text.",
+      "html": "<div class=\"ds-paper\"><ol class=\"ds-steps\"><li><h3>Prima visita e valutazione diagnostica</h3><p>Un colloquio e una visita, con manovre e test diagnostici, per identificare la causa del dolore.</p></li></ol></div>",
+      "css": ".ds-paper{background:var(--paper,#f7f5f0);color:var(--ink,#1f2b23);padding:24px;font-family:'Source Sans 3','Segoe UI','Helvetica Neue',sans-serif;font-size:1.125rem;line-height:1.6}.ds-steps{list-style:none;counter-reset:step;margin:0;padding:0;max-width:22rem}.ds-steps li{counter-increment:step;display:flex;flex-direction:column;gap:.5rem}.ds-steps li::before{content:counter(step);font-family:'Barlow Condensed','Arial Narrow',sans-serif;font-weight:600;font-size:3rem;line-height:.9;color:var(--green-800,#3e5244);letter-spacing:-.02em}.ds-steps h3{margin:0;font-family:'Barlow Condensed','Arial Narrow',sans-serif;font-weight:600;font-size:1.15rem;letter-spacing:.05em;text-transform:uppercase}.ds-steps p{margin:0}"
+    },
+    {
+      "name": "Contact Grid with Phone Number",
+      "kind": "custom",
+      "refersTo": "phone-big",
+      "description": "Two ruled cells on paper: online booking pill, and the oversized phone link.",
+      "html": "<div class=\"ds-paper\"><div class=\"ds-contact\"><div><h3>Online</h3><p>L'agenda di ogni sede \\u00e8 su MioDottore.</p><div class=\"ds-actions\"><a class=\"ds-btn ds-btn-primary\" href=\"#\">Prenota su MioDottore<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6\"/><path d=\"M15 3h6v6\"/><path d=\"M10 14 21 3\"/></svg></a></div></div><div><h3>Per telefono</h3><p><a class=\"ds-phone-big\" href=\"#\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z\"/></svg>351 374 4685</a></p><p>Studio medico di Via Dexart, Cagliari.</p></div></div></div>",
+      "css": ".ds-paper{background:var(--paper,#f7f5f0);color:var(--ink,#1f2b23);padding:24px;font-family:'Source Sans 3','Segoe UI','Helvetica Neue',sans-serif;font-size:1.125rem;line-height:1.6}.ds-contact{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2.5rem 3rem}.ds-contact>div{border-top:2px solid var(--green-300,#c3d0bf);padding-top:1.25rem}.ds-contact h3{margin:0;font-family:'Barlow Condensed','Arial Narrow',sans-serif;font-weight:600;letter-spacing:.08em;text-transform:uppercase;font-size:1.05rem;color:var(--ink-2,#4a5a4e)}.ds-contact p{margin:.5rem 0 0}.ds-actions{margin-top:1.25rem}.ds-phone-big{display:inline-flex;align-items:center;gap:.6rem;font-family:'Barlow Semi Condensed','Arial Narrow',sans-serif;font-weight:600;font-size:clamp(2rem,1.4rem + 2.4vw,3.4rem);line-height:1;letter-spacing:-.01em;color:var(--ink,#1f2b23);text-decoration:none}.ds-phone-big svg{width:.8em;height:.8em;color:var(--blue,#2b5da8)}.ds-phone-big:hover{color:var(--blue,#2b5da8)}.ds-phone-big:focus-visible{outline:3px solid var(--blue,#2b5da8);outline-offset:3px;border-radius:2px}.ds-btn{display:inline-flex;align-items:center;gap:.75rem;min-height:54px;padding:.6rem 1.6rem .6rem 1.7rem;border-radius:999px;font-family:'Barlow Semi Condensed','Arial Narrow',sans-serif;font-weight:600;font-size:1.12rem;letter-spacing:.005em;text-decoration:none;white-space:nowrap;transition:transform .25s cubic-bezier(.16,1,.3,1),background-color .2s,color .2s,border-color .2s,box-shadow .25s cubic-bezier(.16,1,.3,1)}.ds-btn svg{flex:none;width:1.75em;height:1.75em;padding:.42em;border-radius:50%;margin-right:-.55em}.ds-btn svg:first-child{margin-right:0;margin-left:-.55em}.ds-btn:focus-visible{outline:3px solid var(--blue,#2b5da8);outline-offset:3px}.ds-btn-primary{background:var(--blue,#2b5da8);color:#fff;box-shadow:0 12px 24px -12px rgba(23,44,84,.65),inset 0 1px 0 rgba(255,255,255,.18)}.ds-btn-primary svg{background:rgba(255,255,255,.18)}.ds-btn-primary:hover{background:var(--blue-700,#234c8a);transform:translateY(-1px);box-shadow:0 16px 28px -12px rgba(23,44,84,.7),inset 0 1px 0 rgba(255,255,255,.18)}.ds-btn-primary:active{transform:translateY(0)}.ds-btn-ghost{color:var(--ink,#1f2b23);border:2px solid currentColor;background:transparent}.ds-btn-ghost svg{background:rgba(31,43,35,.08)}.ds-btn-ghost:hover{background:var(--ink,#1f2b23);color:var(--paper,#f7f5f0);border-color:var(--ink,#1f2b23)}.ds-btn-ghost:hover svg{background:rgba(255,255,255,.15)}.ds-btn-small{min-height:44px;font-size:1rem;padding:.35rem 1.1rem .35rem 1.2rem}"
+    },
+    {
+      "name": "Notice Band",
+      "kind": "custom",
+      "refersTo": "notice-band",
+      "description": "Plain closing band on the curtain for the emergency notice: Ink heading, one lead line, no buttons.",
+      "html": "<section class=\"ds-notice\"><h2>Questo non \\u00e8 un servizio di emergenza.</h2><p>In caso di urgenza chiama il 112.</p></section>",
+      "css": ".ds-notice{background:var(--green-700,#9db09a);color:var(--ink,#1f2b23);padding:clamp(3rem,8vh,6rem) 1.5rem;font-family:'Source Sans 3','Segoe UI','Helvetica Neue',sans-serif;line-height:1.6}.ds-notice h2{margin:0;font-family:'Barlow Semi Condensed','Arial Narrow',sans-serif;font-weight:600;font-size:clamp(2rem,1.3rem + 2.2vw,3.1rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance;max-width:22ch}.ds-notice p{margin:1.25rem 0 0;font-size:1.25rem}"
+    },
+    {
+      "name": "Hero Photo Card",
+      "kind": "card",
+      "refersTo": "hero-caption",
+      "description": "A print with a paper caption strip whose top edge is perforated; lifted off the curtain by a drop-shadow filter.",
+      "html": "<div class=\"ds-ground ds-ground-block\"><figure class=\"ds-photo\"><div class=\"ds-photo-img\" role=\"img\" aria-label=\"Placeholder for the photograph\"></div><figcaption>In ambulatorio, durante un'infiltrazione</figcaption></figure></div>",
+      "css": ".ds-ground-block{display:block;background:var(--green-700,#9db09a);padding:32px 24px}.ds-photo{margin:0;max-width:260px;filter:drop-shadow(0 24px 30px rgba(0,0,0,.35))}.ds-photo-img{aspect-ratio:3/3.6;background:linear-gradient(160deg,#8fa3a0,#4f6a66);border-radius:4px 4px 0 0}.ds-photo figcaption{position:relative;background:var(--paper,#f7f5f0);color:var(--ink-2,#4a5a4e);font-family:'Barlow Condensed','Arial Narrow',sans-serif;font-weight:500;font-size:.95rem;letter-spacing:.06em;text-transform:uppercase;padding:.9rem 1.1rem;border-radius:0 0 4px 4px}.ds-photo figcaption::before{content:'';position:absolute;left:0;right:0;top:0;height:10px;background:radial-gradient(circle at 6px 5px,var(--paper-2,#e8e6de) 2.2px,transparent 2.8px) 0 0/12px 10px repeat-x}"
+    }
+  ],
+  "narrative": {
+    "northStar": "L'ambulatorio",
+    "overview": "The site is the pain therapist's treatment room, built from its three materials. A pleated hospital curtain in soft sage is the ground of every page: it never gives way to a white canvas, its vertical pleats run behind everything that is not paper, and text sits on it in ink, dark on light, as on a chart pinned to the fabric. Reading happens on paper-white sheets torn off the examination bed's roll, each with a perforated top edge, laid over the curtain one after another down the page. Scrub blue appears only where the visitor acts (book, call, open a map); it is never a heading, a rule, or an ornament. A brushed-steel rail runs across the top of the room on the one dark green surface and carries the navigation on small rings; the footer and the phone's action bar are the same dark fitting. The homepage is a slim front door (the argument, one quotation, three doors to the inner pages, two teasers, the booking band) and the four-page site is read through it.\n\nThe register is serious, plain and reassuring. Type is a condensed signage system (Barlow Condensed caps for labels, Barlow Semi Condensed for the hook, headings and buttons) set against a wide, quiet reading face (Source Sans 3) at a large body size, because the readers are often in pain, older, and on a phone in the evening. Density is low: one argument per bay, generous paper margins, 66-character measures, and one quotation given its own quiet band on the curtain. Motion is a single theatrical gesture, the curtain halves parting on load, and nothing else moves except a button lifting a pixel.\n\nThe world rejects the medical-site default of a white page, a smiling-doctor hero, a blue accent everywhere and three icon cards. Photographs are the three client-approved pictures of the doctor at work, used as prints with a paper caption or as tall portraits, never as stock or background imagery.",
+    "keyCharacteristics": [
+      "Sage curtain (`#9db09a`) is the page ground on every surface, read in ink (`#1f2b23`); paper sheets (`#f7f5f0`) carry all running copy.",
+      "The dark green (`#2f3f34`) is a fitting, not a ground: rail, footer and mobile action bar, always with white text.",
+      "Scrub blue (`#2b5da8`) is reserved for actions and inline links; it appears nowhere decorative.",
+      "Brushed steel (a white-to-grey vertical gradient) is the only metal: the rail's top edge and the action bar's top edge.",
+      "Three self-hosted faces with a clear division of labour: Barlow Condensed caps for signage, Barlow Semi Condensed for headings and sentence-case pill buttons, Source Sans 3 for reading.",
+      "Paper edges are perforated (sage dots on a 14px pitch) wherever paper meets curtain.",
+      "Depth is physical: one long soft shadow under lifted paper and photographs, a blue-tinted lift under the primary pill, a short hard drop under steel, none under text.",
+      "One choreographed motion (the curtain opening), fully disabled under `prefers-reduced-motion`."
+    ],
+    "rules": [
+      {
+        "name": "The Scrub Blue Rule",
+        "body": "Blue means \"act\". It appears on primary buttons, inline links and the focus ring, and nowhere else: never on headings, rules, icons at rest, or backgrounds.",
+        "section": "colors"
+      },
+      {
+        "name": "The Paper for Reading Rule",
+        "body": "Running copy longer than one lead sentence lives on paper (`#f7f5f0`) with ink (`#1f2b23`). A green bay holds a heading, one lead sentence and an action; anything longer is laid on a paper slip. The epigraph is the one exception: a single quotation may stand on the curtain.",
+        "section": "colors"
+      },
+      {
+        "name": "The Ink on Sage Rule",
+        "body": "Text on the curtain is Ink, never white: the sage is light enough to be read like paper. White text exists only on the dark fittings (Rail), and nothing in the sage family is used as a surface for white text.",
+        "section": "colors"
+      },
+      {
+        "name": "The Signage Caps Rule",
+        "body": "Barlow Condensed is always uppercase and tracked (0.06–0.1em) and is never used for running text or on buttons; Source Sans 3 is never uppercase or tracked. Buttons are Barlow Semi Condensed in sentence case, the same face as the headings.",
+        "section": "typography"
+      },
+      {
+        "name": "The One Hook Rule",
+        "body": "Display size exists once per page, for the hero hook on the homepage or the page title on an inner page; sections open with Headline and never with a label above the heading.",
+        "section": "typography"
+      },
+      {
+        "name": "The Lifted Paper Rule",
+        "body": "Only things that physically sit on the curtain cast a shadow: paper, photographs, steel and the blue pill. Nothing on paper casts a shadow onto paper; hierarchy inside a sheet is done with rules, type and whitespace.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Fixed Pleat Rule",
+        "body": "The curtain texture is `background-attachment: fixed` so sheets scroll over a still curtain. Any new ground surface must keep the same four gradient layers and the 72px pleat pitch over Sage.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** keep the sage curtain as the ground of every page and let it show between sheets; a new page starts from `#9db09a` with the four fixed pleat layers, never from white.",
+      "**Do** set text on the curtain in Ink (`#1f2b23`), and reserve white text for the dark fittings (`#2f3f34`: rail, footer, action bar).",
+      "**Do** put any copy longer than one lead sentence on paper (a sheet or a slip) in Ink; keep green bays to heading, lead and action.",
+      "**Do** give every paper edge that meets the curtain the 14px perforation strip of Sage dots.",
+      "**Do** use Scrub Blue only for primary pills, inline links and the focus ring; keep ghost pills Ink-stroked (White only inside the action bar).",
+      "**Do** build buttons as 54px pills in Barlow Semi Condensed sentence case with the icon in a tinted circle at the trailing end (leading for the phone).",
+      "**Do** set labels, nav and `h3` in Barlow Condensed uppercase tracked 0.06–0.1em, headings in Barlow Semi Condensed 600, and everything readable in Source Sans 3 at 1.125rem/1.6 on a 66ch measure.",
+      "**Do** keep tap targets at 44px or more (54px pills, 44px small pills and nav, 50px on the action bar) and keep the fixed action bar on every page below 900px.",
+      "**Do** mark external links with the `#i-ext` icon and visually hidden text, and show the phone number as digits in the call button.",
+      "**Do** open every inner page with a page head directly on the curtain (Page title, optional byline, 1.3rem lead) and close it with a green band.",
+      "**Do** use definition rows for lists of treatments and credentials, and facts lists for a practice's address, phone and site.",
+      "**Do** keep every booking action pointing at MioDottore, the phone, or the site's own pages, and let the emergency notice band stand without buttons.",
+      "**Do** honour `prefers-reduced-motion` by removing both hero animations and rendering the curtain open."
+    ],
+    "donts": [
+      "**Don't** use Scrub Blue, or any other saturated colour, for headings, rules, icons at rest or backgrounds.",
+      "**Don't** put white text on any sage (`#9db09a`, `#7f9480`) or use the dark green as a page ground.",
+      "**Don't** put shadows under elements that sit on paper, or under text; only paper, photographs, steel and the blue pill cast shadows.",
+      "**Don't** set buttons in uppercase or in Barlow Condensed; signage caps are for labels, never for pills.",
+      "**Don't** add a second accent, a kicker above headings, or a display-size setting outside the hero hook and the inner-page title.",
+      "**Don't** put a button beside the emergency notice, or add display-size type to an inner page beyond the one title.",
+      "**Don't** invent opening hours or claim mechanisms or comparisons for a therapy; copy stays descriptive and points to the visit and the MioDottore agenda.",
+      "**Don't** make the homepage a long brochure: it points to the inner pages with door rows and teasers rather than repeating their content.",
+      "**Don't** use stock photography, decorative anatomy, or icon cards; the only images are the client-approved photographs with their provenance sidecars.",
+      "**Don't** round corners beyond 4px except on pills; the only circles are the button icon discs and the nav rings.",
+      "**Don't** use steel greys as text colours, or steel anywhere other than the rail and the action bar's edge."
+    ]
+  }
+}

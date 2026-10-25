@@ -1,0 +1,6 @@
+# Materiale di partenza (PDF, foto originali): non va nel repository
+materiale/
+
+# Catture di revisione e file di sistema
+.impeccable/review/
+.DS_Store
