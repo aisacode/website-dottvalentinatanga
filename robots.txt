@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aisacode.github.io/website-dottvalentinatanga/sitemap.xml
